@@ -12,6 +12,15 @@ public class Strings {
         System.out.println(st4);
         System.out.println(st1==st3); //False because == checks address not the data , st1 value stored at heap memory whereas st3 data is stored at String pool
         System.out.println(st1.equals(st3));
+
+        // using Strings we can store special symbols , numeric values
+        String st="123";
+        System.out.println(st);
+        String mailId="nagaprog@gmail.com";
+        System.out.println(mailId);
+        //concatination
+        System.out.println(st1+st2+mailId);
+
         
     }
 }
